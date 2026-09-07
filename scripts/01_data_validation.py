@@ -1,6 +1,7 @@
 import mlflow
 from sklearn.datasets import load_wine
-
+ 
+ 
 def validate_data():
     """
     Loads the wine dataset, performs basic validation checks,
@@ -51,3 +52,4 @@ def validate_data():
  
 if __name__ == "__main__":
     validate_data()
+

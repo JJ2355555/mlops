@@ -21,3 +21,4 @@ def test_three_classes():
 def test_alcohol_range():
     """ค่าที่หลุดช่วงนี้แปลว่าข้อมูลต้นทางผิดปกติ"""
     assert df["alcohol"].between(10.0, 16.0).all()
+

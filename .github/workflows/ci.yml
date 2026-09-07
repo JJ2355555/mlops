@@ -74,3 +74,4 @@ jobs:
  
       - name: Summary
         run: echo "CI ผ่านบน Python ${{ matrix.python-version }} — สถานะ ${{ job.status }}"
+
